@@ -115,9 +115,7 @@ fabric.properties
 # that are supposed to be shared within teams.
 
 .idea/*
-
-!.idea/codeStyles
-!.idea/runConfigurations
+.idea/runConfigurations
 
 ### Maven ###
 pom.xml.tag
@@ -207,6 +205,4 @@ gradle-app.setting
 
 # End of https://www.toptal.com/developers/gitignore/api/scala,intellij+all,sbt,maven,groovy,metals,bloop,visualstudiocode,gradle
 /.idea/
-!/.bsp/
-!/.idea/
-!/.bsp/
+/.bsp/
