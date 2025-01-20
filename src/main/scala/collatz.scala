@@ -2,10 +2,11 @@ import scala.annotation.tailrec
 
 @main
 def main(): Unit =
-   val res = collatz(5923).reverse
-   println(res)
-   println(s"Steps: ${res.length - 1}")
-   println
+   val result = for n <- 0 to 200 yield (n, collatz(n).reverse)
+
+   result
+      .sortBy(_._2.head.toString.last.toInt)
+      .foreach(r => println(s"Step: ${r._2.length - 1} \npath: ${r._2.mkString(",")}\n"))
 
 @tailrec
 def collatz(n: Long, acc: List[Long] = Nil): List[Long] =
