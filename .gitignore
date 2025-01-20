@@ -154,6 +154,7 @@ project/plugins/project/
 
 ### SBT Patch ###
 .bsp/
+.bsp
 
 ### Scala ###
 *.log
