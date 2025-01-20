@@ -206,3 +206,6 @@ gradle-app.setting
 
 # End of https://www.toptal.com/developers/gitignore/api/scala,intellij+all,sbt,maven,groovy,metals,bloop,visualstudiocode,gradle
 /.idea/
+!/.bsp/
+!/.idea/
+!/.bsp/
