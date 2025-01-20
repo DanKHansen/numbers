@@ -21,7 +21,7 @@ out/
 *.swp
 *~
 
-.idea
+.idea/codeStyles
 *.iml
 *.ipr
 *.iws

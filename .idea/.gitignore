@@ -21,12 +21,12 @@ out/
 *.swp
 *~
 
-.idea
+.idea/
 *.iml
 *.ipr
 *.iws
 .shelf
-
+.xml
 .settings/
 .classpath
 .project
